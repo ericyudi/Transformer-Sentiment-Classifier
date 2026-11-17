@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Data (large files)
+data/
+
+# Checkpoints (large files)
+checkpoints/*.pt
+
+# Results (ignore temporary samples, but keep the final images)
+results/samples/
+*.gif
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
